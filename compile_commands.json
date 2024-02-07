@@ -1,0 +1,30 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-c",
+      "-Isrc",
+      "-Ilib/engine/include/engine",
+      "-Ilib/engine/include",
+      "-Ilib/engine//lib/renderer/include",
+      "-Ilib/engine//lib/renderer/include/renderer",
+      "-Ilib/engine//lib/renderer//lib//bgfx/include",
+      "-Ilib/engine//lib/renderer//lib//bimg/include",
+      "-Ilib/engine//lib/renderer//lib//bx/include",
+      "-Ilib/engine//lib/renderer//lib//glfw/include",
+      "-Ilib/engine//lib/renderer//lib//glm",
+      "-Ilib/engine//lib/renderer//lib/",
+      "-Wall",
+      "-g",
+      "-DDEBUG=1",
+      "-DBX_CONFIG_DEBUG=1",
+      "-o",
+      "src/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/devel/rlib-test",
+    "file": "/devel/rlib-test/src/main.cpp",
+    "output": "/devel/rlib-test/src/main.o"
+  }
+]
